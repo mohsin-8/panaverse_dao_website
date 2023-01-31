@@ -1,0 +1,9 @@
+@media (max-width: 567px) {
+  .mb_heading {
+    font-size: 20px !important;
+  }
+
+  .mb_para {
+    font-size: 14px !important;
+  }
+}

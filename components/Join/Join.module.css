@@ -1,0 +1,22 @@
+.learnMore {
+  color: #fff;
+  font-size: 16px !important;
+  padding: 12px 30px;
+  border-radius: 50px !important;
+  background-color: #a8172c !important;
+  font-weight: 500 !important;
+  transition: all ease 0.4s;
+}
+
+.learnMore:hover {
+  background-color: #00ff00 !important;
+}
+@media (max-width: 567px) {
+  .mb_heading {
+    font-size: 20px !important;
+  }
+
+  .mb_para {
+    font-size: 14px !important;
+  }
+}

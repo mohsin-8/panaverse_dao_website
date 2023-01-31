@@ -1,0 +1,53 @@
+.proudBox {
+  border: 2px solid #000;
+  height: 220px;
+  padding: 40px 22px;
+  transition: all ease 0.4s;
+}
+
+.proudBox:hover {
+  box-shadow: #00ff00 0px 7px 29px 0px;
+  background-color: #a8172c;
+}
+
+.proudBox:hover h2 {
+  color: #fff;
+}
+
+.proudBox:hover p {
+  color: #fff;
+}
+
+.proudBox h2 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  transition: all ease 0.2s;
+}
+
+.proudBox p {
+  color: #000;
+  font-weight: 400;
+  font-style: 14px;
+  transition: all ease 0.2s;
+}
+
+.greenSpan {
+  color: #00ff00;
+  font-size: 38px;
+}
+
+@media (max-width: 567px) {
+  .mb_heading {
+    font-size: 25px !important;
+    line-height: 25px !important;
+  }
+
+  .mb_heading span {
+    font-size: 20px !important;
+  }
+
+  .mb_para {
+    font-size: 14px !important;
+  }
+}
