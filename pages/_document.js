@@ -8,6 +8,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
           rel="stylesheet"
         />
+        <link rel="shortcut icon" href="/logo.png" />
       </Head>
 
       <body>
