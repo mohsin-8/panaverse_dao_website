@@ -17,6 +17,7 @@ import {
   Text,
   useColorModeValue,
   useDisclosure,
+  Image,
 } from "@chakra-ui/react";
 import styles from "./Join.module.css";
 
@@ -113,7 +114,7 @@ const Join = () => {
               marginLeft={{ base: "0", sm: "5%" }}
               marginTop="5%"
             >
-              <img
+              <Image
                 src="https://static.euronews.com/articles/stories/06/33/17/40/1200x675_cmsv2_ee29dadf-9615-567e-bc6f-fd725bc2c680-6331740.jpg"
                 alt="community"
               />

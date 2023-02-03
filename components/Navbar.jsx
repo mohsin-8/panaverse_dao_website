@@ -59,9 +59,9 @@ export default function WithSubnavigation() {
           />
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-          <a href="/">
+          <Link href="/">
             <Image src={Logo} className={styles.logo} alt="logo" />
-          </a>
+          </Link>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
             <DesktopNav />

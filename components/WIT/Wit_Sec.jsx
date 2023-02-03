@@ -40,7 +40,7 @@ const Wit_Sec = () => {
           letterSpacing={"5px"}
           mt="10px"
         >
-          PIAIC WOMEN'S GALLERY
+          PIAIC WOMENS GALLERY
         </Text>
       </Container>
 
