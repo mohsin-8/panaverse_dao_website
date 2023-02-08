@@ -146,7 +146,7 @@ export default function Contact() {
                           <InputGroup borderColor="#E0E1E7">
                             <InputLeftElement
                               pointerEvents="none"
-                              children={<BsPerson color="gray.800" />}
+                              // children={<BsPerson color="gray.800" />}
                             />
                             <Input
                               type="text"
@@ -161,7 +161,7 @@ export default function Contact() {
                           <InputGroup borderColor="#E0E1E7">
                             <InputLeftElement
                               pointerEvents="none"
-                              children={<MdOutlineEmail color="gray.800" />}
+                              // children={<MdOutlineEmail color="gray.800" />}
                             />
                             <Input
                               type="text"
