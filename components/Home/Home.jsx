@@ -89,7 +89,6 @@ export default function Home() {
       <Wit_Sec />
       <Nutshell />
       <Join />
-      <Footer />
     </>
   );
 }

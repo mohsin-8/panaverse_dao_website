@@ -106,11 +106,11 @@ export default function LargeWithNewsletter() {
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>Company</ListHeader>
-            <Link href={"#"}>Course Details</Link>
-            <Link href={"#"}>Panaverse</Link>
-            <Link href={"#"}>PIAIC</Link>
-            <Link href={"#"}>About Us</Link>
-            <Link href={"#"}>Contact Us</Link>
+            <Link href={"https://www.piaic.org/"} target="_blank">
+              PIAIC
+            </Link>
+            <Link href={"/about"}>About Us</Link>
+            <Link href={"/contact"}>Contact Us</Link>
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>Support</ListHeader>
