@@ -9,7 +9,7 @@
 }
 
 .learnMore:hover {
-  background-color: #00ff00 !important;
+  background-color: #3a3a3a !important;
 }
 @media (max-width: 567px) {
   .mb_heading {

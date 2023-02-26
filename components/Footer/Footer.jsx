@@ -134,7 +134,7 @@ export default function LargeWithNewsletter() {
                 bg={useColorModeValue("#a8172c")}
                 color={useColorModeValue("white", "gray.800")}
                 _hover={{
-                  bg: "#00ff00",
+                  bg: "#3a3a3a",
                 }}
                 aria-label="Subscribe"
                 icon={<BiMailSend />}

@@ -37,7 +37,7 @@ export default function Home() {
             className={styles.bannerHeading}
           >
             Discover your journey <br />
-            <Text as={"span"} color={"#00ff00"}>
+            <Text as={"span"} color={"#3a3a3a"}>
               Getting Ready for the Next Generation of the Internet
             </Text>
           </Heading>

@@ -13,3 +13,13 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-color: #e5f0f3 !important;
 }
+
+.syllabus {
+  margin: 50px 0px;
+}
+
+.tabsDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}

@@ -253,7 +253,7 @@ const NAV_ITEMS = [
       {
         label: "Explore Syllabus",
         subLabel: "Detailed Course Syllabus",
-        href: "/syllabus",
+        href: "#",
       },
     ],
   },

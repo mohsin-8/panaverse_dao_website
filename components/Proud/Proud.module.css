@@ -6,7 +6,7 @@
 }
 
 .proudBox:hover {
-  box-shadow: #00ff00 0px 7px 29px 0px;
+  box-shadow: #3a3a3a 0px 7px 29px 0px;
   background-color: #a8172c;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .greenSpan {
-  color: #00ff00;
+  color: #3a3a3a;
   font-size: 38px;
 }
 

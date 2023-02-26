@@ -1,120 +1,53 @@
+import React from "react";
 import {
-  Box,
-  Button,
-  Divider,
+  Container,
   Heading,
-  List,
-  ListIcon,
-  ListItem,
-  Stack,
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
+  TabPanel,
   Text,
-  useColorModeValue,
+  VStack,
+  Flex,
 } from "@chakra-ui/react";
-import { FaCheckCircle } from "react-icons/fa";
+import styles from "../styles/Home.module.css";
 
-const options = [
-  { id: 1, desc: "1 lorem ipsum" },
-  { id: 2, desc: "Lorem, ipsum dolor." },
-  { id: 3, desc: "Monthly Updates" },
-];
-
-const PackageTier = ({ title, options, typePlan, checked = false }) => {
-  const colorTextLight = checked ? "white" : "purple.600";
-  const bgColorLight = checked ? "purple.400" : "gray.300";
-
-  const colorTextDark = checked ? "white" : "purple.500";
-  const bgColorDark = checked ? "purple.400" : "gray.300";
-
+const syllabus = () => {
   return (
-    <Stack
-      p={3}
-      py={3}
-      justifyContent={{
-        base: "flex-start",
-        md: "space-around",
-      }}
-      direction={{
-        base: "column",
-        md: "row",
-      }}
-      alignItems={{ md: "center" }}
-    >
-      <Heading size={"md"}>{title}</Heading>
-      <List spacing={3} textAlign="start">
-        {options.map((desc, id) => (
-          <ListItem key={desc.id}>
-            <ListIcon as={FaCheckCircle} color="green.500" />
-            {desc.desc}
-          </ListItem>
-        ))}
-      </List>
-      <Heading size={"xl"}>{typePlan}</Heading>
-      <Stack>
-        <Button
-          size="md"
-          color={useColorModeValue(colorTextLight, colorTextDark)}
-          bgColor={useColorModeValue(bgColorLight, bgColorDark)}
-        >
-          Get Started
-        </Button>
-      </Stack>
-    </Stack>
-  );
-};
-const Syllabus = () => {
-  return (
-    <Box py={6} px={5} min={"100vh"}>
-      <Stack spacing={4} width={"100%"} direction={"column"}>
-        <Stack
-          p={5}
-          alignItems={"center"}
-          justifyContent={{
-            base: "flex-start",
-            md: "space-around",
-          }}
-          direction={{
-            base: "column",
-            md: "row",
-          }}
-        >
-          <Stack
-            width={{
-              base: "100%",
-              md: "40%",
-            }}
-            textAlign={"center"}
-          >
-            <Heading size={"lg"}>
-              The Right Plan for <Text color="purple.400">Your Business</Text>
-            </Heading>
-          </Stack>
-          <Stack
-            width={{
-              base: "100%",
-              md: "60%",
-            }}
-          >
-            <Text textAlign={"center"}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              quod in iure vero. Facilis magnam, sed officiis commodi labore
-              odit.
-            </Text>
-          </Stack>
-        </Stack>
-        <Divider />
-        <PackageTier title={"Starter"} typePlan="Free" options={options} />
-        <Divider />
-        <PackageTier
-          title={"Lorem Plus"}
-          checked={true}
-          typePlan="$32.00"
-          options={options}
-        />
-        <Divider />
-        <PackageTier title={"Lorem Pro"} typePlan="$50.00" options={options} />
-      </Stack>
-    </Box>
+    <div>
+      <section className={styles.syllabus}>
+        <Container>
+          <Heading textAlign="center">Course Details</Heading>
+          <Text mt={"25px"} textAlign="center">
+            We will start the program by learning the fundamentals of
+            Object-Oriented programming using JavaScript and TypeScript. We will
+            also understand the latest Web trends i.e. Web 3.0 and Metaverse
+            concepts and try to understand their working from the perspective of
+            the users.
+          </Text>
+          <div className={styles.tabsDiv}>
+            <Tabs variant="soft-rounded" colorScheme="green">
+              <TabList>
+                <Tab>Object-Oriented Programming using TypeScript</Tab>
+                <Tab>Tab 2</Tab>
+              </TabList>
+              <TabPanels>
+                <TabPanel>
+                  <VStack>
+                    <Flex></Flex>
+                  </VStack>
+                </TabPanel>
+                <TabPanel>
+                  <p>two!</p>
+                </TabPanel>
+              </TabPanels>
+            </Tabs>
+          </div>
+        </Container>
+      </section>
+    </div>
   );
 };
 
-export default Syllabus;
+export default syllabus;
